@@ -1,0 +1,516 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./assets/css/output.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <!-- Navbar Start -->
+  <header class="text-[#333333] body-font fixed top-0 left-0 w-full bg-white z-50 shadow">
+    <div class="container mx-auto flex flex-wrap p-5 justify-between md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+       <img src="./assets/img/a-logo-for-a-gym-named-body-mechanic-it-features-a-F-9t66HeTM-BseqC6gxwKg-T6hp23ZmTW6yMU83Wt6dfw.jpeg" class="w-20 h-20 rounded-full" alt="">
+        <span class="ml-3 text-xl">Body Mechanic</span>
+      </a>
+  
+      <!-- Toggle Button -->
+      <button
+        class="inline-flex md:hidden items-center text-gray-900 bg-gray-100 rounded p-2 focus:outline-none hover:bg-gray-200 transition duration-200 ease-in-out md:ml-4"
+        id="menu-toggle"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          class="w-6 h-6"
+          viewBox="0 0 24 24"
+        >
+          <path d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
+      </button>
+  
+      <!-- Desktop Navigation Menu -->
+      <nav class="hidden md:flex md:ml-auto flex-wrap items-center text-base justify-center" id="menu">
+        <a href="#about" class="mr-5 hover:text-gray-900">About Us</a>
+        <a href="#services" class="mr-5 hover:text-gray-900">Our Services</a>
+        <a href="#team" class="mr-5 hover:text-gray-900">Our Team</a>
+        <a href="#contact" class="mr-5 hover:text-gray-900">Contact Us</a>
+      </nav>
+    </div>
+  
+    <!-- Mobile Menu -->
+    <div class="md:hidden">
+      <div id="mobile-menu" class="hidden flex flex-col items-center mt-4">
+        <nav class="flex flex-col">
+          <a href="#about" class="py-2 hover:text-gray-900">About Us</a>
+          <a href="#services" class="py-2 hover:text-gray-900">Our Services</a>
+          <a href="#team" class="py-2 hover:text-gray-900">Our Team</a>
+          <a href="#contact" class="py-2 hover:text-gray-900">Contact Us</a>
+        </nav>
+        <button class="mt-4 bg-[#003366] text-white py-2 px-4 rounded focus:outline-none hover:bg-[#003366]" id="action-button">
+          Action Button
+        </button>
+      </div>
+    </div>
+  </header>
+  
+  
+
+
+  <!-- Navbar End  -->
+
+  <!-- Hero Section Start -->
+
+  <section class="text-[#333333] body-font">
+    <div class="container mx-auto flex px-10 pt-48 py-24 md:flex-row flex-col items-center">
+      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Unleash Your Potential
+          <br class="hidden lg:inline-block">at Our Fitness Center
+        </h1>
+        <p class="mb-8 leading-relaxed">Join our community and experience top-notch training, personalized programs, and a supportive environment. From strength training to yoga, we offer a variety of classes to help you achieve your fitness goals.</p>
+        <div class="flex justify-center">
+          <button class="inline-flex text-white bg-[#003366] border-0 py-2 px-6 focus:outline-none hover:bg-[#003366] rounded text-lg">Join Us</button>
+          <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Learn More</button>
+        </div>
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center rounded" alt="hero" src="./assets/img/pexels-victorfreitas-841130.jpg">
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Hero Section End -->
+
+
+  <!-- About Us Section Start  -->
+  <section class="text-[#333333] body-font" id="about">
+    <div class="container px-10 py-24 mx-auto">
+      <div class="text-center mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">About Us</h1>
+        <div class="flex mt-6 justify-center">
+          <div class="w-16 h-1 rounded-full bg-[#003366] inline-flex"></div>
+        </div>
+        <p class="text-base leading-relaxed xl:w-[86%] lg:w-3/4 mx-auto text-[#333333]">
+          Welcome to <strong>Body Mechanic</strong>, the ultimate destination for fitness enthusiasts. Our gym is
+          designed
+          to help you reach your full potential with state-of-the-art equipment, personalized training programs, and a
+          supportive community. Whether you're just starting your fitness journey or you're an experienced athlete, we
+          offer a range of services tailored to your goals. At Body Mechanic, we believe in building not only strong
+          bodies
+          but also strong minds, focusing on holistic wellness and sustainable fitness habits. Join us, and let's shape
+          your future together.
+        </p>
+      </div>
+
+      <button
+        class="flex mx-auto mt-16 text-white bg-[#003366] border-0 py-2 px-8 focus:outline-none hover:bg-[#003366] rounded text-lg">Join
+        Now</button>
+    </div>
+  </section>
+
+
+  <!-- About Us Section End  -->
+
+  <!-- Our Services Sec Start -->
+
+  <section id="services" class="text-[#333333] body-font">
+    <div class="container px-10 py-24 mx-auto">
+      <div class="text-center mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Our Services</h1>
+        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-[#333333]">
+          At Body Mechanic, we offer a wide range of services designed to help you achieve your fitness goals, no matter
+          your experience level. Our expert trainers and state-of-the-art facilities ensure you get the best experience
+          possible.
+        </p>
+        <div class="flex mt-6 justify-center">
+          <div class="w-16 h-1 rounded-full bg-[#003366] inline-flex"></div>
+        </div>
+      </div>
+      <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+        <!-- Personal Training -->
+        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div
+            class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+            <img src="./assets/img/pexels-julia-larson-6456305.jpg" class=" w-20 h-20 rounded-full" alt="">
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Personal Training</h2>
+            <p class="leading-relaxed text-base">
+              Get one-on-one attention from our certified trainers who will craft personalized workout plans to meet
+              your specific fitness goals. Whether you're aiming to lose weight, build muscle, or improve endurance,
+              we've got you covered.
+            </p>
+            <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <!-- Group Fitness Classes -->
+        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div
+            class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+           <img src="./assets/img/pexels-mikhail-nilov-6740300.jpg" class="w-20 h-20 rounded-full" alt="">
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Group Fitness Classes</h2>
+            <p class="leading-relaxed text-base">
+              Join our high-energy group classes including yoga, HIIT, spinning, and more. These sessions are designed
+              to be fun, motivating, and highly effective at helping you stay fit while enjoying the camaraderie of
+              fellow gym-goers.
+            </p>
+            <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <!-- Nutritional Guidance -->
+        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+          <div
+            class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+         <img src="./assets/img/pexels-annushka-ahuja-7991936.jpg" class="w-20 h-20 rounded-full" alt="">
+          </div>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Nutritional Guidance</h2>
+            <p class="leading-relaxed text-base">
+              Our certified nutritionists provide personalized diet plans and nutritional advice to complement your
+              fitness regime. Learn how to fuel your body with the right foods for better energy, faster recovery, and
+              sustainable results.
+            </p>
+            <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <button
+        class="flex mx-auto mt-16 text-white bg-[#003366] border-0 py-2 px-8 focus:outline-none hover:bg-[#003366] rounded text-lg">Get
+        Started</button>
+    </div>
+  </section>
+
+
+  <!-- Our Services Sec End -->
+
+
+  <!-- Our Team Sec Start  -->
+
+  <section class="text-[#333333] body-font" id="team">
+    <div class="container px-10 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest">MEET OUR TRAINERS</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+          Our team of experienced trainers is committed to helping you achieve your fitness goals. Each trainer brings
+          unique expertise to ensure you have the best guidance for your fitness journey.
+        </p>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 lg:w-1/2">
+          <div
+            class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="trainer" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+              src="./assets/img/png-transparent-computer-icons-user-profile-user-avatar-blue-heroes-electric-blue.png">
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">John Doe</h2>
+              <h3 class="text-[#333333] mb-3">Head Trainer</h3>
+              <p class="mb-4">John is a certified fitness expert with over 10 years of experience in helping clients
+                reach their full potential. His motivational style and expertise make him an excellent guide.</p>
+              <span class="inline-flex">
+                <a class="text-[#333333]">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-[#333333]">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <path
+                      d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                    </path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-[#333333]">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2">
+          <div
+            class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="trainer" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+               src="./assets/img/png-transparent-computer-icons-user-profile-user-avatar-blue-heroes-electric-blue.png">
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">Jane Smith</h2>
+              <h3 class="text-[#333333] mb-3">Yoga Instructor</h3>
+              <p class="mb-4">Jane specializes in yoga and mindfulness training, helping clients improve their
+                flexibility, strength, and mental focus.</p>
+              <span class="inline-flex">
+                <a class="text-[#333333]">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-[#333333]">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <path
+                      d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                    </path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-[#333333]">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2">
+          <div
+            class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="trainer" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+               src="./assets/img/png-transparent-computer-icons-user-profile-user-avatar-blue-heroes-electric-blue.png">
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">Jane Smith</h2>
+              <h3 class="text-[#333333] mb-3">Yoga Instructor</h3>
+              <p class="mb-4">Jane specializes in yoga and mindfulness training, helping clients improve their
+                flexibility, strength, and mental focus.</p>
+              <span class="inline-flex">
+                <a class="text-[#333333]">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-[#333333]">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <path
+                      d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                    </path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-[#333333]">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 lg:w-1/2">
+          <div
+            class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="trainer" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+               src="./assets/img/png-transparent-computer-icons-user-profile-user-avatar-blue-heroes-electric-blue.png">
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">Jane Smith</h2>
+              <h3 class="text-[#333333] mb-3">Yoga Instructor</h3>
+              <p class="mb-4">Jane specializes in yoga and mindfulness training, helping clients improve their
+                flexibility, strength, and mental focus.</p>
+              <span class="inline-flex">
+                <a class="text-[#333333]">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-[#333333]">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <path
+                      d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                    </path>
+                  </svg>
+                </a>
+                <a class="ml-2 text-[#333333]">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <path
+                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                    </path>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Our Team Sec End  -->
+
+
+  <!-- Contact Us Sec Start  -->
+
+  <section class="text-[#333333] body-font relative" id="contact">
+    <div class="container px-10 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Contact Us</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn
+          asymmetrical gentrify.</p>
+      </div>
+      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="name" class="leading-7 text-sm text-[#333333]">Name</label>
+              <input type="text" id="name" name="name"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="email" class="leading-7 text-sm text-[#333333]">Email</label>
+              <input type="email" id="email" name="email"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <div class="relative">
+              <label for="message" class="leading-7 text-sm text-[#333333]">Message</label>
+              <textarea id="message" name="message"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <button
+              class="flex mx-auto text-white bg-[#003366] border-0 py-2 px-8 focus:outline-none hover:bg-[#003366] rounded text-lg">Button</button>
+          </div>
+          <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+            <a class="text-indigo-500">example@email.com</a>
+            <p class="leading-normal my-5">49 Smith St.
+              <br>Saint Cloud, MN 56301
+            </p>
+            <span class="inline-flex">
+              <a class="text-[#333333]">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                  viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-4 text-[#333333]">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                  </path>
+                </svg>
+              </a>
+              <a class="ml-4 text-[#333333]">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+              </a>
+              <a class="ml-4 text-[#333333]">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                  viewBox="0 0 24 24">
+                  <path
+                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                  </path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us Sec End  -->
+
+  <!-- Footer Sec Start -->
+
+  <footer class="text-[#333333] body-font">
+    <div class="container px-10 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <img src="./assets/img/a-logo-for-a-gym-named-body-mechanic-it-features-a-F-9t66HeTM-BseqC6gxwKg-T6hp23ZmTW6yMU83Wt6dfw.jpeg" class="w-20 h-20 rounded-full" alt="">
+
+        <span class="ml-3 text-xl">Body Mechanic</span>
+      </a>
+      <p class="text-sm text-[#333333] sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024
+        Tailblocks —
+        <a href="https://twitter.com/knyttneve" class="text-[#333333] ml-1" rel="noopener noreferrer"
+          target="_blank">@mirzafarazalibaig</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-[#333333]">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-[#333333]">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path
+              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+            </path>
+          </svg>
+        </a>
+        <a class="ml-3 text-[#333333]">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-[#333333]">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none"
+              d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </footer>
+
+  <!-- Footer Sec End -->
+
+
+  <button id="scrollToTopBtn" class="fixed bottom-10 right-10 bg-[#003366] text-white rounded-full p-3 shadow-lg hidden">
+    &#8593; <!-- Up arrow -->
+  </button>
+</body>
+<script src="./assets/javascript/main.js"></script>
+
+</html>
